@@ -1,0 +1,77 @@
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.saludo{
+	color: white;
+	height: 64px;
+	background-color: #004c80;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.boton-pago{
+	height: 250px;
+	width: 450px;
+	color: #f7f4f4;
+	background-color: orange;
+	font-size: larger;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.flex{
+	display: flex;
+	justify-content: space-around;
+
+}
+.texto{
+	font-size: larger;
+	color: black;
+	background-color: beige;
+	padding: 16px;
+}
+.columna{
+	display: flex;
+	flex-direction: column;
+}
+.consulta a {
+	width: 100%;
+}
+.consulta button { 
+	background-color: orange;
+	border-radius: 50px;
+	font-size: larger;
+	padding: 12px;
+	margin-top: 6px;
+	cursor: pointer;
+	width: 100%;}
+.consulta input{
+	font-size: larger;}
+.pago-monto{
+	justify-content:center;
+}
+.debito{
+	background-color: #f0ae26;
+	color: black;
+}
+.credito{
+	background-color: #56d2e1;	
+	color: black;
+}
+.btn{
+	font-size: 24px;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 350px;
+	height:150px;
+	margin: 8px;
+}
+p{
+	background-color: #c9c5c5;
+	text-align: center;
+	padding: 12px;
+	border-radius: 12px;
+
+}
